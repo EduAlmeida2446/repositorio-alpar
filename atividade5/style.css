@@ -1,12 +1,60 @@
-body{
-    background-color: #ffffd2;
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(lightgrey);
 }
-#cabecalho{
-     background-color: purple;
-    
+header {
+    background: rgb(173, 183, 230);
+    width: auto;
+    padding: 2px 0 0 20px;
+    text-align: center;
+    border: 1px solid;
 }
-h1{
- color: rgb(249, 240, 255);
- text-align: center;
 
+.meu-cabecalho {
+   width: auto;
+}
+img {
+    margin: 10px 0 0 0;
+	position: static;
+    right: 8.4em;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: auto;
+    /* position: relative; */
+	position: static;
+    left: 1em;
+    bottom: 4em;
+    font-weight: bold;
+    font-size: 1em;
+}
+.container-conteudo {
+    text-align: center;
+
+    line-height: 1em;
+    width: auto;
+}
+h2 {
+    font-weight: bold;
+    margin: 50px 0 0  0 ;
+}
+li p {
+    line-height: 2em;
+}
+.container-contato {
+    margin: 0 0 0 10px ;
+    text-align: center;
+}
+
+footer {
+    background: lightblue;
+    width: auto;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 30px;
+    padding: 50px 0 100px 0;
 }
