@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduCast</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffff9e;
+            color: #333;
+        }
+        header {
+            background-color: #000000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #fff;
+        }
+        h2 {
+            color: #000000;
+        }
+        .episode {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #d3d3d3;
+            border-radius: 5px;
+        }
+        video, audio {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        @media screen and (max-width: 600px) {
+            header {
+                padding: 10px;
+            }
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            .episode {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Podcast EduCast</h1>
+        <p>Explorando o mundo da tecnologia e inovação.</p>
+    </header>
+
+    <div class="container">
+        <h2>Sobre o Podcast - EduCast</h2>
+        <p>O Podcast EduCast aborda diferentes aspectos da tecnologia, desde inteligência artificial até inovações em energias renováveis. Acompanhe-nos para aprender e se inspirar!</p>
+
+        <div class="episode">
+            <h3>Episódio 1: Apresentando o Podcast</h3>
+            <p>Seja Bem-Vindo</p>
+            <video controls>
+                <source src="../apresentacao.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="episode">
+            <h3>Episódio 2: Apple Vision Pro</h3>
+            <p>Hoje falaremos sobre o novo aparelho inovador da Apple.</p>
+            <audio controls>
+                <source src="../ep2completo.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="episode">
+            <h3>Episódio 3: Nova era dos carros Elétricos</h3>
+            <p>Como vai funcionar a nova era dos carros elétricos.</p>
+            <audio controls>
+                <source src="../ep3completo.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+</body>
+</html>

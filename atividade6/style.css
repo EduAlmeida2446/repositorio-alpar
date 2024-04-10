@@ -1,0 +1,66 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(lightgrey);
+    margin: 0;
+}
+
+header {
+    background: rgb(173, 183, 230);
+    padding: 20px;
+    text-align: center;
+}
+
+.meu-cabecalho img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.container-conteudo, .container-contato {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 80%;
+}
+
+h2 {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+li p {
+    line-height: 1.5em;
+}
+
+footer {
+    background: rgb(173, 183, 230);
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .container-conteudo, .container-contato {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 1.2em;
+    }
+    .meu-cabecalho img {
+        width: 80px;
+    }
+}
