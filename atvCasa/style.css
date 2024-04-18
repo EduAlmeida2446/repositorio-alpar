@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button {
+    background-color: red;
+}
+
+h1 {
+    font-size: 36px;
+    color: #333; 
+    margin-bottom: 30px;
+    text-align: center;
+}
+body{
+    background-color: #8d8888;
+}
