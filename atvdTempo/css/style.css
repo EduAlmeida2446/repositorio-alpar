@@ -1,0 +1,45 @@
+button {
+    padding: 0 !important;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    margin-top: 2rem;
+    background-color: gainsboro;
+    border-radius: 12px;
+    box-shadow: 4px 7px 6px rgba(0, 0, 0, 0.2);
+    max-width: 500px !important;
+    height: 50vh;
+}
+
+input {
+    padding: 0.1rem;
+    border-radius: 5px 5px;
+}
+
+.align-search{
+    display: flex;
+    align-items: center;
+}
+
+h2{
+    font-weight: normal !important;
+}
+
+.desc{
+    font-size: larger;
+}
+
+.hot{
+    color: red;
+}
+
+.clean{
+    color: rgb(75, 75, 253);
+}
+.cold{
+    color: rgb(98, 49, 212);
+}
